@@ -23,7 +23,7 @@ is_local = os.environ.get("IS_LOCAL", "false").lower() == "true"
 if is_local:
     print("In Local Code...")
     APPLICATION_PROPERTIES_FILE_PATH = "application_properties.json"
-    env.add_jars(f"file:///Users/shashankmishra/Desktop/pyflink-dependencies.jar")
+    env.add_jars(f"C:/Users/Usuario/Desktop/Data Engineering with AWS - Grow Data Skills/Module13 - Projects/Class1/betting_app_flink_streaming_project\SRam_Solution/target/pyflink-dependencies.jar")
 
 
 def get_application_properties():
